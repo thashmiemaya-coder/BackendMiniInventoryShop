@@ -47,49 +47,99 @@ The **Grocery Inventory Management System API** provides a complete set of RESTf
 https://localhost:7016/api
 
 
-# Category APIs
+## Supplier APIs
 
-## 1. Get All Categories
+| Method | Endpoint | Description |
+|--------|----------|-------------|
+| GET | `/api/Supplier` | Get all suppliers |
+| POST | `/api/Supplier` | Create a new supplier |
 
-**Method:** `GET`  
-**Endpoint:** `/api/category`  
-**Description:** Retrieves a list of all categories.
-
-### Sample Response
+### Sample Request Body (POST)
 
 ```json
 {
-  "success": true,
-  "message": "Operation successful",
-  "data": [
-    {
-      "categoryId": 1,
-      "categoryName": "Rice",
-      "description": "All types of rice products",
-      "isActive": true,
-      "createdDate": "2026-07-06T10:00:00"
-    },
-    {
-      "categoryId": 2,
-      "categoryName": "Flour",
-      "description": "Baking and cooking flours",
-      "isActive": true,
-      "createdDate": "2026-07-06T10:00:00"
-    },
-    {
-      "categoryId": 3,
-      "categoryName": "Oil",
-      "description": "Cooking oils",
-      "isActive": true,
-      "createdDate": "2026-07-06T10:00:00"
-    },
-    {
-      "categoryId": 4,
-      "categoryName": "Sugar",
-      "description": "Sugar and sweeteners",
-      "isActive": true,
-      "createdDate": "2026-07-06T10:00:00"
-    }
-  ],
-  "errors": null
+  "supplierName": "Ceylon Foods (Pvt) Ltd",
+  "contactNumber": "077-1234567",
+  "email": "info@ceylonfoods.lk",
+  "address": "No. 123, Galle Road, Colombo 03"
 }
+```
+## Supplier APIs
+
+| Method | Endpoint | Description |
+|--------|----------|-------------|
+| GET | `/api/Supplier` | Get all suppliers |
+| POST | `/api/Supplier` | Create a new supplier |
+
+### Sample Request Body (POST)
+
+```json
+{
+  "supplierName": "Ceylon Foods (Pvt) Ltd",
+  "contactNumber": "077-1234567",
+  "email": "info@ceylonfoods.lk",
+  "address": "No. 123, Galle Road, Colombo 03"
+}
+```
+## Item APIs
+
+| Method | Endpoint | Description |
+|--------|----------|-------------|
+| GET | `/api/Item` | Get all items |
+| POST | `/api/Item` | Create a new item |
+
+### Sample Request Body (POST)
+
+```json
+{
+  "itemCode": "RICE001",
+  "barcode": "8901234567890",
+  "itemName": "Basmati Rice 1kg",
+  "categoryId": 1,
+  "supplierId": 1,
+  "costPrice": 150.00,
+  "sellingPrice": 210.00,
+  "reorderLevel": 20
+}
+
+```
+## Stock APIs
+
+| Method | Endpoint | Description |
+|--------|----------|-------------|
+| POST | `/api/Stock/in` | Record stock in (add stock) |
+| POST | `/api/Stock/out` | Record stock out (remove stock) |
+| GET | `/api/Stock/balance` | Get stock balance report |
+| GET | `/api/Stock/low-stock` | Get low stock items |
+
+---
+
+### Sample Request Body (POST Stock In)
+
+```json
+{
+  "itemId": 1,
+  "supplierId": 1,
+  "quantity": 50,
+  "costPrice": 150.00
+}
+
+```
+## User APIs
+
+| Method | Endpoint | Description |
+|--------|----------|-------------|
+| POST | `/api/User/login` | User login |
+| POST | `/api/User/register` | Register a new user |
+
+---
+
+### Sample Request Body (POST Login)
+
+```json
+{
+  "username": "admin@grocery.lk",
+  "password": "admin123"
+}
+
+
