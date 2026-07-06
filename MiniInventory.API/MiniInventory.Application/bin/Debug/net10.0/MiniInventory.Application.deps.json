@@ -1,0 +1,53 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "MiniInventory.Application/1.0.0": {
+        "dependencies": {
+          "MiniInventory.Domain": "1.0.0",
+          "MiniInventory.Shared": "1.0.0"
+        },
+        "runtime": {
+          "MiniInventory.Application.dll": {}
+        }
+      },
+      "MiniInventory.Domain/1.0.0": {
+        "runtime": {
+          "MiniInventory.Domain.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "MiniInventory.Shared/1.0.0": {
+        "runtime": {
+          "MiniInventory.Shared.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MiniInventory.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MiniInventory.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MiniInventory.Shared/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,765 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\DELL 3530\\OneDrive\\Desktop\\MiniInventorySystem\\BackendMiniInventoryShop\\MiniInventory.API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{89429A1B-3E35-E79E-EF6B-C87B0DB508BD}|MiniInventory.Infrastructure\\MiniInventory.Infrastructure.csproj|c:\\users\\dell 3530\\onedrive\\desktop\\miniinventorysystem\\backendminiinventoryshop\\miniinventory.api\\miniinventory.infrastructure\\repositories\\stockoutrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89429A1B-3E35-E79E-EF6B-C87B0DB508BD}|MiniInventory.Infrastructure\\MiniInventory.Infrastructure.csproj|solutionrelative:miniinventory.infrastructure\\repositories\\stockoutrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{345D44AC-E11B-5D1C-CFD8-1A8D07C7F65D}|MiniInventory.Application\\MiniInventory.Application.csproj|c:\\users\\dell 3530\\onedrive\\desktop\\miniinventorysystem\\backendminiinventoryshop\\miniinventory.api\\miniinventory.application\\interfaces\\istockoutrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{345D44AC-E11B-5D1C-CFD8-1A8D07C7F65D}|MiniInventory.Application\\MiniInventory.Application.csproj|solutionrelative:miniinventory.application\\interfaces\\istockoutrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89429A1B-3E35-E79E-EF6B-C87B0DB508BD}|MiniInventory.Infrastructure\\MiniInventory.Infrastructure.csproj|c:\\users\\dell 3530\\onedrive\\desktop\\miniinventorysystem\\backendminiinventoryshop\\miniinventory.api\\miniinventory.infrastructure\\repositories\\stockinrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89429A1B-3E35-E79E-EF6B-C87B0DB508BD}|MiniInventory.Infrastructure\\MiniInventory.Infrastructure.csproj|solutionrelative:miniinventory.infrastructure\\repositories\\stockinrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{345D44AC-E11B-5D1C-CFD8-1A8D07C7F65D}|MiniInventory.Application\\MiniInventory.Application.csproj|c:\\users\\dell 3530\\onedrive\\desktop\\miniinventorysystem\\backendminiinventoryshop\\miniinventory.api\\miniinventory.application\\interfaces\\istockinrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{345D44AC-E11B-5D1C-CFD8-1A8D07C7F65D}|MiniInventory.Application\\MiniInventory.Application.csproj|solutionrelative:miniinventory.application\\interfaces\\istockinrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{345D44AC-E11B-5D1C-CFD8-1A8D07C7F65D}|MiniInventory.Application\\MiniInventory.Application.csproj|c:\\users\\dell 3530\\onedrive\\desktop\\miniinventorysystem\\backendminiinventoryshop\\miniinventory.api\\miniinventory.application\\services\\stockservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{345D44AC-E11B-5D1C-CFD8-1A8D07C7F65D}|MiniInventory.Application\\MiniInventory.Application.csproj|solutionrelative:miniinventory.application\\services\\stockservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{834F714E-DE12-E0A3-B715-D102CDBEEA56}|MiniInventory.API\\MiniInventory.API.csproj|c:\\users\\dell 3530\\onedrive\\desktop\\miniinventorysystem\\backendminiinventoryshop\\miniinventory.api\\miniinventory.api\\controllers\\stockcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{834F714E-DE12-E0A3-B715-D102CDBEEA56}|MiniInventory.API\\MiniInventory.API.csproj|solutionrelative:miniinventory.api\\controllers\\stockcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{345D44AC-E11B-5D1C-CFD8-1A8D07C7F65D}|MiniInventory.Application\\MiniInventory.Application.csproj|c:\\users\\dell 3530\\onedrive\\desktop\\miniinventorysystem\\backendminiinventoryshop\\miniinventory.api\\miniinventory.application\\interfaces\\istockservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{345D44AC-E11B-5D1C-CFD8-1A8D07C7F65D}|MiniInventory.Application\\MiniInventory.Application.csproj|solutionrelative:miniinventory.application\\interfaces\\istockservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{834F714E-DE12-E0A3-B715-D102CDBEEA56}|MiniInventory.API\\MiniInventory.API.csproj|c:\\users\\dell 3530\\onedrive\\desktop\\miniinventorysystem\\backendminiinventoryshop\\miniinventory.api\\miniinventory.api\\miniinventory.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{834F714E-DE12-E0A3-B715-D102CDBEEA56}|MiniInventory.API\\MiniInventory.API.csproj|solutionrelative:miniinventory.api\\miniinventory.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{345D44AC-E11B-5D1C-CFD8-1A8D07C7F65D}|MiniInventory.Application\\MiniInventory.Application.csproj|c:\\users\\dell 3530\\onedrive\\desktop\\miniinventorysystem\\backendminiinventoryshop\\miniinventory.api\\miniinventory.application\\dtos\\stockdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{345D44AC-E11B-5D1C-CFD8-1A8D07C7F65D}|MiniInventory.Application\\MiniInventory.Application.csproj|solutionrelative:miniinventory.application\\dtos\\stockdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89429A1B-3E35-E79E-EF6B-C87B0DB508BD}|MiniInventory.Infrastructure\\MiniInventory.Infrastructure.csproj|c:\\users\\dell 3530\\onedrive\\desktop\\miniinventorysystem\\backendminiinventoryshop\\miniinventory.api\\miniinventory.infrastructure\\repositories\\itemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89429A1B-3E35-E79E-EF6B-C87B0DB508BD}|MiniInventory.Infrastructure\\MiniInventory.Infrastructure.csproj|solutionrelative:miniinventory.infrastructure\\repositories\\itemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{834F714E-DE12-E0A3-B715-D102CDBEEA56}|MiniInventory.API\\MiniInventory.API.csproj|c:\\users\\dell 3530\\onedrive\\desktop\\miniinventorysystem\\backendminiinventoryshop\\miniinventory.api\\miniinventory.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{834F714E-DE12-E0A3-B715-D102CDBEEA56}|MiniInventory.API\\MiniInventory.API.csproj|solutionrelative:miniinventory.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{834F714E-DE12-E0A3-B715-D102CDBEEA56}|MiniInventory.API\\MiniInventory.API.csproj|c:\\users\\dell 3530\\onedrive\\desktop\\miniinventorysystem\\backendminiinventoryshop\\miniinventory.api\\miniinventory.api\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{834F714E-DE12-E0A3-B715-D102CDBEEA56}|MiniInventory.API\\MiniInventory.API.csproj|solutionrelative:miniinventory.api\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{834F714E-DE12-E0A3-B715-D102CDBEEA56}|MiniInventory.API\\MiniInventory.API.csproj|c:\\users\\dell 3530\\onedrive\\desktop\\miniinventorysystem\\backendminiinventoryshop\\miniinventory.api\\miniinventory.api\\controllers\\suppliercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{834F714E-DE12-E0A3-B715-D102CDBEEA56}|MiniInventory.API\\MiniInventory.API.csproj|solutionrelative:miniinventory.api\\controllers\\suppliercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{834F714E-DE12-E0A3-B715-D102CDBEEA56}|MiniInventory.API\\MiniInventory.API.csproj|c:\\users\\dell 3530\\onedrive\\desktop\\miniinventorysystem\\backendminiinventoryshop\\miniinventory.api\\miniinventory.api\\controllers\\itemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{834F714E-DE12-E0A3-B715-D102CDBEEA56}|MiniInventory.API\\MiniInventory.API.csproj|solutionrelative:miniinventory.api\\controllers\\itemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{345D44AC-E11B-5D1C-CFD8-1A8D07C7F65D}|MiniInventory.Application\\MiniInventory.Application.csproj|c:\\users\\dell 3530\\onedrive\\desktop\\miniinventorysystem\\backendminiinventoryshop\\miniinventory.api\\miniinventory.application\\services\\supplierservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{345D44AC-E11B-5D1C-CFD8-1A8D07C7F65D}|MiniInventory.Application\\MiniInventory.Application.csproj|solutionrelative:miniinventory.application\\services\\supplierservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{345D44AC-E11B-5D1C-CFD8-1A8D07C7F65D}|MiniInventory.Application\\MiniInventory.Application.csproj|c:\\users\\dell 3530\\onedrive\\desktop\\miniinventorysystem\\backendminiinventoryshop\\miniinventory.api\\miniinventory.application\\services\\itemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{345D44AC-E11B-5D1C-CFD8-1A8D07C7F65D}|MiniInventory.Application\\MiniInventory.Application.csproj|solutionrelative:miniinventory.application\\services\\itemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{345D44AC-E11B-5D1C-CFD8-1A8D07C7F65D}|MiniInventory.Application\\MiniInventory.Application.csproj|c:\\users\\dell 3530\\onedrive\\desktop\\miniinventorysystem\\backendminiinventoryshop\\miniinventory.api\\miniinventory.application\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{345D44AC-E11B-5D1C-CFD8-1A8D07C7F65D}|MiniInventory.Application\\MiniInventory.Application.csproj|solutionrelative:miniinventory.application\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{345D44AC-E11B-5D1C-CFD8-1A8D07C7F65D}|MiniInventory.Application\\MiniInventory.Application.csproj|c:\\users\\dell 3530\\onedrive\\desktop\\miniinventorysystem\\backendminiinventoryshop\\miniinventory.api\\miniinventory.application\\dtos\\itemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{345D44AC-E11B-5D1C-CFD8-1A8D07C7F65D}|MiniInventory.Application\\MiniInventory.Application.csproj|solutionrelative:miniinventory.application\\dtos\\itemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{345D44AC-E11B-5D1C-CFD8-1A8D07C7F65D}|MiniInventory.Application\\MiniInventory.Application.csproj|c:\\users\\dell 3530\\onedrive\\desktop\\miniinventorysystem\\backendminiinventoryshop\\miniinventory.api\\miniinventory.application\\dtos\\supplierdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{345D44AC-E11B-5D1C-CFD8-1A8D07C7F65D}|MiniInventory.Application\\MiniInventory.Application.csproj|solutionrelative:miniinventory.application\\dtos\\supplierdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{345D44AC-E11B-5D1C-CFD8-1A8D07C7F65D}|MiniInventory.Application\\MiniInventory.Application.csproj|c:\\users\\dell 3530\\onedrive\\desktop\\miniinventorysystem\\backendminiinventoryshop\\miniinventory.api\\miniinventory.application\\dtos\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{345D44AC-E11B-5D1C-CFD8-1A8D07C7F65D}|MiniInventory.Application\\MiniInventory.Application.csproj|solutionrelative:miniinventory.application\\dtos\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{345D44AC-E11B-5D1C-CFD8-1A8D07C7F65D}|MiniInventory.Application\\MiniInventory.Application.csproj|c:\\users\\dell 3530\\onedrive\\desktop\\miniinventorysystem\\backendminiinventoryshop\\miniinventory.api\\miniinventory.application\\interfaces\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{345D44AC-E11B-5D1C-CFD8-1A8D07C7F65D}|MiniInventory.Application\\MiniInventory.Application.csproj|solutionrelative:miniinventory.application\\interfaces\\icategoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{345D44AC-E11B-5D1C-CFD8-1A8D07C7F65D}|MiniInventory.Application\\MiniInventory.Application.csproj|c:\\users\\dell 3530\\onedrive\\desktop\\miniinventorysystem\\backendminiinventoryshop\\miniinventory.api\\miniinventory.application\\interfaces\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{345D44AC-E11B-5D1C-CFD8-1A8D07C7F65D}|MiniInventory.Application\\MiniInventory.Application.csproj|solutionrelative:miniinventory.application\\interfaces\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{345D44AC-E11B-5D1C-CFD8-1A8D07C7F65D}|MiniInventory.Application\\MiniInventory.Application.csproj|c:\\users\\dell 3530\\onedrive\\desktop\\miniinventorysystem\\backendminiinventoryshop\\miniinventory.api\\miniinventory.application\\interfaces\\iitemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{345D44AC-E11B-5D1C-CFD8-1A8D07C7F65D}|MiniInventory.Application\\MiniInventory.Application.csproj|solutionrelative:miniinventory.application\\interfaces\\iitemservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{345D44AC-E11B-5D1C-CFD8-1A8D07C7F65D}|MiniInventory.Application\\MiniInventory.Application.csproj|c:\\users\\dell 3530\\onedrive\\desktop\\miniinventorysystem\\backendminiinventoryshop\\miniinventory.api\\miniinventory.application\\interfaces\\isupplierservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{345D44AC-E11B-5D1C-CFD8-1A8D07C7F65D}|MiniInventory.Application\\MiniInventory.Application.csproj|solutionrelative:miniinventory.application\\interfaces\\isupplierservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89429A1B-3E35-E79E-EF6B-C87B0DB508BD}|MiniInventory.Infrastructure\\MiniInventory.Infrastructure.csproj|c:\\users\\dell 3530\\onedrive\\desktop\\miniinventorysystem\\backendminiinventoryshop\\miniinventory.api\\miniinventory.infrastructure\\repositories\\supplierrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89429A1B-3E35-E79E-EF6B-C87B0DB508BD}|MiniInventory.Infrastructure\\MiniInventory.Infrastructure.csproj|solutionrelative:miniinventory.infrastructure\\repositories\\supplierrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89429A1B-3E35-E79E-EF6B-C87B0DB508BD}|MiniInventory.Infrastructure\\MiniInventory.Infrastructure.csproj|c:\\users\\dell 3530\\onedrive\\desktop\\miniinventorysystem\\backendminiinventoryshop\\miniinventory.api\\miniinventory.infrastructure\\repositories\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89429A1B-3E35-E79E-EF6B-C87B0DB508BD}|MiniInventory.Infrastructure\\MiniInventory.Infrastructure.csproj|solutionrelative:miniinventory.infrastructure\\repositories\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89429A1B-3E35-E79E-EF6B-C87B0DB508BD}|MiniInventory.Infrastructure\\MiniInventory.Infrastructure.csproj|c:\\users\\dell 3530\\onedrive\\desktop\\miniinventorysystem\\backendminiinventoryshop\\miniinventory.api\\miniinventory.infrastructure\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89429A1B-3E35-E79E-EF6B-C87B0DB508BD}|MiniInventory.Infrastructure\\MiniInventory.Infrastructure.csproj|solutionrelative:miniinventory.infrastructure\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{345D44AC-E11B-5D1C-CFD8-1A8D07C7F65D}|MiniInventory.Application\\MiniInventory.Application.csproj|c:\\users\\dell 3530\\onedrive\\desktop\\miniinventorysystem\\backendminiinventoryshop\\miniinventory.api\\miniinventory.application\\interfaces\\iitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{345D44AC-E11B-5D1C-CFD8-1A8D07C7F65D}|MiniInventory.Application\\MiniInventory.Application.csproj|solutionrelative:miniinventory.application\\interfaces\\iitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{345D44AC-E11B-5D1C-CFD8-1A8D07C7F65D}|MiniInventory.Application\\MiniInventory.Application.csproj|c:\\users\\dell 3530\\onedrive\\desktop\\miniinventorysystem\\backendminiinventoryshop\\miniinventory.api\\miniinventory.application\\interfaces\\isupplierrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{345D44AC-E11B-5D1C-CFD8-1A8D07C7F65D}|MiniInventory.Application\\MiniInventory.Application.csproj|solutionrelative:miniinventory.application\\interfaces\\isupplierrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{345D44AC-E11B-5D1C-CFD8-1A8D07C7F65D}|MiniInventory.Application\\MiniInventory.Application.csproj|c:\\users\\dell 3530\\onedrive\\desktop\\miniinventorysystem\\backendminiinventoryshop\\miniinventory.api\\miniinventory.application\\interfaces\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{345D44AC-E11B-5D1C-CFD8-1A8D07C7F65D}|MiniInventory.Application\\MiniInventory.Application.csproj|solutionrelative:miniinventory.application\\interfaces\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{345D44AC-E11B-5D1C-CFD8-1A8D07C7F65D}|MiniInventory.Application\\MiniInventory.Application.csproj|c:\\users\\dell 3530\\onedrive\\desktop\\miniinventorysystem\\backendminiinventoryshop\\miniinventory.api\\miniinventory.application\\miniinventory.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{345D44AC-E11B-5D1C-CFD8-1A8D07C7F65D}|MiniInventory.Application\\MiniInventory.Application.csproj|solutionrelative:miniinventory.application\\miniinventory.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89429A1B-3E35-E79E-EF6B-C87B0DB508BD}|MiniInventory.Infrastructure\\MiniInventory.Infrastructure.csproj|c:\\users\\dell 3530\\onedrive\\desktop\\miniinventorysystem\\backendminiinventoryshop\\miniinventory.api\\miniinventory.infrastructure\\data\\appdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89429A1B-3E35-E79E-EF6B-C87B0DB508BD}|MiniInventory.Infrastructure\\MiniInventory.Infrastructure.csproj|solutionrelative:miniinventory.infrastructure\\data\\appdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{834F714E-DE12-E0A3-B715-D102CDBEEA56}|MiniInventory.API\\MiniInventory.API.csproj|c:\\users\\dell 3530\\onedrive\\desktop\\miniinventorysystem\\backendminiinventoryshop\\miniinventory.api\\miniinventory.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{834F714E-DE12-E0A3-B715-D102CDBEEA56}|MiniInventory.API\\MiniInventory.API.csproj|solutionrelative:miniinventory.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C4713B8-B262-43DA-8F35-0E8331A329A2}|MiniInventory.Shared\\MiniInventory.Shared.csproj|c:\\users\\dell 3530\\onedrive\\desktop\\miniinventorysystem\\backendminiinventoryshop\\miniinventory.api\\miniinventory.shared\\commonresponse\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C4713B8-B262-43DA-8F35-0E8331A329A2}|MiniInventory.Shared\\MiniInventory.Shared.csproj|solutionrelative:miniinventory.shared\\commonresponse\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89429A1B-3E35-E79E-EF6B-C87B0DB508BD}|MiniInventory.Infrastructure\\MiniInventory.Infrastructure.csproj|c:\\users\\dell 3530\\onedrive\\desktop\\miniinventorysystem\\backendminiinventoryshop\\miniinventory.api\\miniinventory.infrastructure\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89429A1B-3E35-E79E-EF6B-C87B0DB508BD}|MiniInventory.Infrastructure\\MiniInventory.Infrastructure.csproj|solutionrelative:miniinventory.infrastructure\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72454A19-6625-F7F3-89F3-E602FFFD4795}|MiniInventory.Domain\\MiniInventory.Domain.csproj|c:\\users\\dell 3530\\onedrive\\desktop\\miniinventorysystem\\backendminiinventoryshop\\miniinventory.api\\miniinventory.domain\\entities\\stockout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72454A19-6625-F7F3-89F3-E602FFFD4795}|MiniInventory.Domain\\MiniInventory.Domain.csproj|solutionrelative:miniinventory.domain\\entities\\stockout.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72454A19-6625-F7F3-89F3-E602FFFD4795}|MiniInventory.Domain\\MiniInventory.Domain.csproj|c:\\users\\dell 3530\\onedrive\\desktop\\miniinventorysystem\\backendminiinventoryshop\\miniinventory.api\\miniinventory.domain\\entities\\stockin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72454A19-6625-F7F3-89F3-E602FFFD4795}|MiniInventory.Domain\\MiniInventory.Domain.csproj|solutionrelative:miniinventory.domain\\entities\\stockin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72454A19-6625-F7F3-89F3-E602FFFD4795}|MiniInventory.Domain\\MiniInventory.Domain.csproj|c:\\users\\dell 3530\\onedrive\\desktop\\miniinventorysystem\\backendminiinventoryshop\\miniinventory.api\\miniinventory.domain\\entities\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72454A19-6625-F7F3-89F3-E602FFFD4795}|MiniInventory.Domain\\MiniInventory.Domain.csproj|solutionrelative:miniinventory.domain\\entities\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72454A19-6625-F7F3-89F3-E602FFFD4795}|MiniInventory.Domain\\MiniInventory.Domain.csproj|c:\\users\\dell 3530\\onedrive\\desktop\\miniinventorysystem\\backendminiinventoryshop\\miniinventory.api\\miniinventory.domain\\entities\\supplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72454A19-6625-F7F3-89F3-E602FFFD4795}|MiniInventory.Domain\\MiniInventory.Domain.csproj|solutionrelative:miniinventory.domain\\entities\\supplier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72454A19-6625-F7F3-89F3-E602FFFD4795}|MiniInventory.Domain\\MiniInventory.Domain.csproj|c:\\users\\dell 3530\\onedrive\\desktop\\miniinventorysystem\\backendminiinventoryshop\\miniinventory.api\\miniinventory.domain\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72454A19-6625-F7F3-89F3-E602FFFD4795}|MiniInventory.Domain\\MiniInventory.Domain.csproj|solutionrelative:miniinventory.domain\\entities\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89429A1B-3E35-E79E-EF6B-C87B0DB508BD}|MiniInventory.Infrastructure\\MiniInventory.Infrastructure.csproj|c:\\users\\dell 3530\\onedrive\\desktop\\miniinventorysystem\\backendminiinventoryshop\\miniinventory.api\\miniinventory.infrastructure\\miniinventory.infrastructure.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{89429A1B-3E35-E79E-EF6B-C87B0DB508BD}|MiniInventory.Infrastructure\\MiniInventory.Infrastructure.csproj|solutionrelative:miniinventory.infrastructure\\miniinventory.infrastructure.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C4713B8-B262-43DA-8F35-0E8331A329A2}|MiniInventory.Shared\\MiniInventory.Shared.csproj|c:\\users\\dell 3530\\onedrive\\desktop\\miniinventorysystem\\backendminiinventoryshop\\miniinventory.api\\miniinventory.shared\\miniinventory.shared.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{6C4713B8-B262-43DA-8F35-0E8331A329A2}|MiniInventory.Shared\\MiniInventory.Shared.csproj|solutionrelative:miniinventory.shared\\miniinventory.shared.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72454A19-6625-F7F3-89F3-E602FFFD4795}|MiniInventory.Domain\\MiniInventory.Domain.csproj|c:\\users\\dell 3530\\onedrive\\desktop\\miniinventorysystem\\backendminiinventoryshop\\miniinventory.api\\miniinventory.domain\\miniinventory.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{72454A19-6625-F7F3-89F3-E602FFFD4795}|MiniInventory.Domain\\MiniInventory.Domain.csproj|solutionrelative:miniinventory.domain\\miniinventory.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89429A1B-3E35-E79E-EF6B-C87B0DB508BD}|MiniInventory.Infrastructure\\MiniInventory.Infrastructure.csproj|c:\\users\\dell 3530\\onedrive\\desktop\\miniinventorysystem\\backendminiinventoryshop\\miniinventory.api\\miniinventory.infrastructure\\miniinventory.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{89429A1B-3E35-E79E-EF6B-C87B0DB508BD}|MiniInventory.Infrastructure\\MiniInventory.Infrastructure.csproj|solutionrelative:miniinventory.infrastructure\\miniinventory.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{834F714E-DE12-E0A3-B715-D102CDBEEA56}|MiniInventory.API\\MiniInventory.API.csproj|c:\\users\\dell 3530\\onedrive\\desktop\\miniinventorysystem\\backendminiinventoryshop\\miniinventory.api\\miniinventory.api\\miniinventory.api.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{834F714E-DE12-E0A3-B715-D102CDBEEA56}|MiniInventory.API\\MiniInventory.API.csproj|solutionrelative:miniinventory.api\\miniinventory.api.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89429A1B-3E35-E79E-EF6B-C87B0DB508BD}|MiniInventory.Infrastructure\\MiniInventory.Infrastructure.csproj|c:\\users\\dell 3530\\onedrive\\desktop\\miniinventorysystem\\backendminiinventoryshop\\miniinventory.api\\miniinventory.infrastructure\\migrations\\20260625110233_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89429A1B-3E35-E79E-EF6B-C87B0DB508BD}|MiniInventory.Infrastructure\\MiniInventory.Infrastructure.csproj|solutionrelative:miniinventory.infrastructure\\migrations\\20260625110233_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StockInRepository.cs",
+              "DocumentMoniker": "C:\\Users\\DELL 3530\\OneDrive\\Desktop\\MiniInventorySystem\\BackendMiniInventoryShop\\MiniInventory.API\\MiniInventory.Infrastructure\\Repositories\\StockInRepository.cs",
+              "RelativeDocumentMoniker": "MiniInventory.Infrastructure\\Repositories\\StockInRepository.cs",
+              "ToolTip": "C:\\Users\\DELL 3530\\OneDrive\\Desktop\\MiniInventorySystem\\BackendMiniInventoryShop\\MiniInventory.API\\MiniInventory.Infrastructure\\Repositories\\StockInRepository.cs",
+              "RelativeToolTip": "MiniInventory.Infrastructure\\Repositories\\StockInRepository.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAqwDMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-25T11:21:18.722Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IStockOutRepository.cs",
+              "DocumentMoniker": "C:\\Users\\DELL 3530\\OneDrive\\Desktop\\MiniInventorySystem\\BackendMiniInventoryShop\\MiniInventory.API\\MiniInventory.Application\\Interfaces\\IStockOutRepository.cs",
+              "RelativeDocumentMoniker": "MiniInventory.Application\\Interfaces\\IStockOutRepository.cs",
+              "ToolTip": "C:\\Users\\DELL 3530\\OneDrive\\Desktop\\MiniInventorySystem\\BackendMiniInventoryShop\\MiniInventory.API\\MiniInventory.Application\\Interfaces\\IStockOutRepository.cs",
+              "RelativeToolTip": "MiniInventory.Application\\Interfaces\\IStockOutRepository.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-25T11:11:10.516Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StockOutRepository.cs",
+              "DocumentMoniker": "C:\\Users\\DELL 3530\\OneDrive\\Desktop\\MiniInventorySystem\\BackendMiniInventoryShop\\MiniInventory.API\\MiniInventory.Infrastructure\\Repositories\\StockOutRepository.cs",
+              "RelativeDocumentMoniker": "MiniInventory.Infrastructure\\Repositories\\StockOutRepository.cs",
+              "ToolTip": "C:\\Users\\DELL 3530\\OneDrive\\Desktop\\MiniInventorySystem\\BackendMiniInventoryShop\\MiniInventory.API\\MiniInventory.Infrastructure\\Repositories\\StockOutRepository.cs",
+              "RelativeToolTip": "MiniInventory.Infrastructure\\Repositories\\StockOutRepository.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAiwDIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-25T11:22:14.561Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IStockInRepository.cs",
+              "DocumentMoniker": "C:\\Users\\DELL 3530\\OneDrive\\Desktop\\MiniInventorySystem\\BackendMiniInventoryShop\\MiniInventory.API\\MiniInventory.Application\\Interfaces\\IStockInRepository.cs",
+              "RelativeDocumentMoniker": "MiniInventory.Application\\Interfaces\\IStockInRepository.cs",
+              "ToolTip": "C:\\Users\\DELL 3530\\OneDrive\\Desktop\\MiniInventorySystem\\BackendMiniInventoryShop\\MiniInventory.API\\MiniInventory.Application\\Interfaces\\IStockInRepository.cs",
+              "RelativeToolTip": "MiniInventory.Application\\Interfaces\\IStockInRepository.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAcwA0AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-25T11:09:33.267Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "StockService.cs",
+              "DocumentMoniker": "C:\\Users\\DELL 3530\\OneDrive\\Desktop\\MiniInventorySystem\\BackendMiniInventoryShop\\MiniInventory.API\\MiniInventory.Application\\Services\\StockService.cs",
+              "RelativeDocumentMoniker": "MiniInventory.Application\\Services\\StockService.cs",
+              "ToolTip": "C:\\Users\\DELL 3530\\OneDrive\\Desktop\\MiniInventorySystem\\BackendMiniInventoryShop\\MiniInventory.API\\MiniInventory.Application\\Services\\StockService.cs",
+              "RelativeToolTip": "MiniInventory.Application\\Services\\StockService.cs",
+              "ViewState": "AgIAAMEAAAAAAAAAAAAgwNMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-25T12:00:46.592Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "StockController.cs",
+              "DocumentMoniker": "C:\\Users\\DELL 3530\\OneDrive\\Desktop\\MiniInventorySystem\\BackendMiniInventoryShop\\MiniInventory.API\\MiniInventory.API\\Controllers\\StockController.cs",
+              "RelativeDocumentMoniker": "MiniInventory.API\\Controllers\\StockController.cs",
+              "ToolTip": "C:\\Users\\DELL 3530\\OneDrive\\Desktop\\MiniInventorySystem\\BackendMiniInventoryShop\\MiniInventory.API\\MiniInventory.API\\Controllers\\StockController.cs",
+              "RelativeToolTip": "MiniInventory.API\\Controllers\\StockController.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAAAFAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-25T12:12:01.544Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IStockService.cs",
+              "DocumentMoniker": "C:\\Users\\DELL 3530\\OneDrive\\Desktop\\MiniInventorySystem\\BackendMiniInventoryShop\\MiniInventory.API\\MiniInventory.Application\\Interfaces\\IStockService.cs",
+              "RelativeDocumentMoniker": "MiniInventory.Application\\Interfaces\\IStockService.cs",
+              "ToolTip": "C:\\Users\\DELL 3530\\OneDrive\\Desktop\\MiniInventorySystem\\BackendMiniInventoryShop\\MiniInventory.API\\MiniInventory.Application\\Interfaces\\IStockService.cs",
+              "RelativeToolTip": "MiniInventory.Application\\Interfaces\\IStockService.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAzwBUAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-25T11:30:05.559Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MiniInventory.API.csproj",
+              "DocumentMoniker": "C:\\Users\\DELL 3530\\OneDrive\\Desktop\\MiniInventorySystem\\BackendMiniInventoryShop\\MiniInventory.API\\MiniInventory.API\\MiniInventory.API.csproj",
+              "RelativeDocumentMoniker": "MiniInventory.API\\MiniInventory.API.csproj",
+              "ToolTip": "C:\\Users\\DELL 3530\\OneDrive\\Desktop\\MiniInventorySystem\\BackendMiniInventoryShop\\MiniInventory.API\\MiniInventory.API\\MiniInventory.API.csproj",
+              "RelativeToolTip": "MiniInventory.API\\MiniInventory.API.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-06-25T09:50:26.399Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "StockDto.cs",
+              "DocumentMoniker": "C:\\Users\\DELL 3530\\OneDrive\\Desktop\\MiniInventorySystem\\BackendMiniInventoryShop\\MiniInventory.API\\MiniInventory.Application\\DTOs\\StockDto.cs",
+              "RelativeDocumentMoniker": "MiniInventory.Application\\DTOs\\StockDto.cs",
+              "ToolTip": "C:\\Users\\DELL 3530\\OneDrive\\Desktop\\MiniInventorySystem\\BackendMiniInventoryShop\\MiniInventory.API\\MiniInventory.Application\\DTOs\\StockDto.cs",
+              "RelativeToolTip": "MiniInventory.Application\\DTOs\\StockDto.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAkwAwAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-25T12:05:16.738Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ItemDto.cs",
+              "DocumentMoniker": "C:\\Users\\DELL 3530\\OneDrive\\Desktop\\MiniInventorySystem\\BackendMiniInventoryShop\\MiniInventory.API\\MiniInventory.Application\\DTOs\\ItemDto.cs",
+              "RelativeDocumentMoniker": "MiniInventory.Application\\DTOs\\ItemDto.cs",
+              "ToolTip": "C:\\Users\\DELL 3530\\OneDrive\\Desktop\\MiniInventorySystem\\BackendMiniInventoryShop\\MiniInventory.API\\MiniInventory.Application\\DTOs\\ItemDto.cs",
+              "RelativeToolTip": "MiniInventory.Application\\DTOs\\ItemDto.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAA3wDAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-25T12:04:55.467Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\DELL 3530\\OneDrive\\Desktop\\MiniInventorySystem\\BackendMiniInventoryShop\\MiniInventory.API\\MiniInventory.API\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "MiniInventory.API\\Controllers\\CategoryController.cs",
+              "ToolTip": "C:\\Users\\DELL 3530\\OneDrive\\Desktop\\MiniInventorySystem\\BackendMiniInventoryShop\\MiniInventory.API\\MiniInventory.API\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "MiniInventory.API\\Controllers\\CategoryController.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAowE8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-25T12:10:26.469Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "SupplierDto.cs",
+              "DocumentMoniker": "C:\\Users\\DELL 3530\\OneDrive\\Desktop\\MiniInventorySystem\\BackendMiniInventoryShop\\MiniInventory.API\\MiniInventory.Application\\DTOs\\SupplierDto.cs",
+              "RelativeDocumentMoniker": "MiniInventory.Application\\DTOs\\SupplierDto.cs",
+              "ToolTip": "C:\\Users\\DELL 3530\\OneDrive\\Desktop\\MiniInventorySystem\\BackendMiniInventoryShop\\MiniInventory.API\\MiniInventory.Application\\DTOs\\SupplierDto.cs",
+              "RelativeToolTip": "MiniInventory.Application\\DTOs\\SupplierDto.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAowCEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-25T12:04:34.092Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\DELL 3530\\OneDrive\\Desktop\\MiniInventorySystem\\BackendMiniInventoryShop\\MiniInventory.API\\MiniInventory.API\\Program.cs",
+              "RelativeDocumentMoniker": "MiniInventory.API\\Program.cs",
+              "ToolTip": "C:\\Users\\DELL 3530\\OneDrive\\Desktop\\MiniInventorySystem\\BackendMiniInventoryShop\\MiniInventory.API\\MiniInventory.API\\Program.cs",
+              "RelativeToolTip": "MiniInventory.API\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-25T10:11:17.326Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ItemRepository.cs",
+              "DocumentMoniker": "C:\\Users\\DELL 3530\\OneDrive\\Desktop\\MiniInventorySystem\\BackendMiniInventoryShop\\MiniInventory.API\\MiniInventory.Infrastructure\\Repositories\\ItemRepository.cs",
+              "RelativeDocumentMoniker": "MiniInventory.Infrastructure\\Repositories\\ItemRepository.cs",
+              "ToolTip": "C:\\Users\\DELL 3530\\OneDrive\\Desktop\\MiniInventorySystem\\BackendMiniInventoryShop\\MiniInventory.API\\MiniInventory.Infrastructure\\Repositories\\ItemRepository.cs",
+              "RelativeToolTip": "MiniInventory.Infrastructure\\Repositories\\ItemRepository.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAmwE8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-25T11:20:45.004Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "SupplierController.cs",
+              "DocumentMoniker": "C:\\Users\\DELL 3530\\OneDrive\\Desktop\\MiniInventorySystem\\BackendMiniInventoryShop\\MiniInventory.API\\MiniInventory.API\\Controllers\\SupplierController.cs",
+              "RelativeDocumentMoniker": "MiniInventory.API\\Controllers\\SupplierController.cs",
+              "ToolTip": "C:\\Users\\DELL 3530\\OneDrive\\Desktop\\MiniInventorySystem\\BackendMiniInventoryShop\\MiniInventory.API\\MiniInventory.API\\Controllers\\SupplierController.cs",
+              "RelativeToolTip": "MiniInventory.API\\Controllers\\SupplierController.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAowE8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-25T12:10:51.543Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ItemController.cs",
+              "DocumentMoniker": "C:\\Users\\DELL 3530\\OneDrive\\Desktop\\MiniInventorySystem\\BackendMiniInventoryShop\\MiniInventory.API\\MiniInventory.API\\Controllers\\ItemController.cs",
+              "RelativeDocumentMoniker": "MiniInventory.API\\Controllers\\ItemController.cs",
+              "ToolTip": "C:\\Users\\DELL 3530\\OneDrive\\Desktop\\MiniInventorySystem\\BackendMiniInventoryShop\\MiniInventory.API\\MiniInventory.API\\Controllers\\ItemController.cs",
+              "RelativeToolTip": "MiniInventory.API\\Controllers\\ItemController.cs",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAowGYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-25T12:11:19.644Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CategoryService.cs",
+              "DocumentMoniker": "C:\\Users\\DELL 3530\\OneDrive\\Desktop\\MiniInventorySystem\\BackendMiniInventoryShop\\MiniInventory.API\\MiniInventory.Application\\Services\\CategoryService.cs",
+              "RelativeDocumentMoniker": "MiniInventory.Application\\Services\\CategoryService.cs",
+              "ToolTip": "C:\\Users\\DELL 3530\\OneDrive\\Desktop\\MiniInventorySystem\\BackendMiniInventoryShop\\MiniInventory.API\\MiniInventory.Application\\Services\\CategoryService.cs",
+              "RelativeToolTip": "MiniInventory.Application\\Services\\CategoryService.cs",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAowIUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-25T11:30:42.148Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "SupplierService.cs",
+              "DocumentMoniker": "C:\\Users\\DELL 3530\\OneDrive\\Desktop\\MiniInventorySystem\\BackendMiniInventoryShop\\MiniInventory.API\\MiniInventory.Application\\Services\\SupplierService.cs",
+              "RelativeDocumentMoniker": "MiniInventory.Application\\Services\\SupplierService.cs",
+              "ToolTip": "C:\\Users\\DELL 3530\\OneDrive\\Desktop\\MiniInventorySystem\\BackendMiniInventoryShop\\MiniInventory.API\\MiniInventory.Application\\Services\\SupplierService.cs",
+              "RelativeToolTip": "MiniInventory.Application\\Services\\SupplierService.cs",
+              "ViewState": "AgIAAHYAAAAAAAAAAAAowJUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-25T11:59:24.102Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "CategoryDto.cs",
+              "DocumentMoniker": "C:\\Users\\DELL 3530\\OneDrive\\Desktop\\MiniInventorySystem\\BackendMiniInventoryShop\\MiniInventory.API\\MiniInventory.Application\\DTOs\\CategoryDto.cs",
+              "RelativeDocumentMoniker": "MiniInventory.Application\\DTOs\\CategoryDto.cs",
+              "ToolTip": "C:\\Users\\DELL 3530\\OneDrive\\Desktop\\MiniInventorySystem\\BackendMiniInventoryShop\\MiniInventory.API\\MiniInventory.Application\\DTOs\\CategoryDto.cs",
+              "RelativeToolTip": "MiniInventory.Application\\DTOs\\CategoryDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-25T12:03:49.377Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ItemService.cs",
+              "DocumentMoniker": "C:\\Users\\DELL 3530\\OneDrive\\Desktop\\MiniInventorySystem\\BackendMiniInventoryShop\\MiniInventory.API\\MiniInventory.Application\\Services\\ItemService.cs",
+              "RelativeDocumentMoniker": "MiniInventory.Application\\Services\\ItemService.cs",
+              "ToolTip": "C:\\Users\\DELL 3530\\OneDrive\\Desktop\\MiniInventorySystem\\BackendMiniInventoryShop\\MiniInventory.API\\MiniInventory.Application\\Services\\ItemService.cs",
+              "RelativeToolTip": "MiniInventory.Application\\Services\\ItemService.cs",
+              "ViewState": "AgIAABQBAAAAAAAAAAAowDMBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-25T11:59:56.52Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ICategoryService.cs",
+              "DocumentMoniker": "C:\\Users\\DELL 3530\\OneDrive\\Desktop\\MiniInventorySystem\\BackendMiniInventoryShop\\MiniInventory.API\\MiniInventory.Application\\Interfaces\\ICategoryService.cs",
+              "RelativeDocumentMoniker": "MiniInventory.Application\\Interfaces\\ICategoryService.cs",
+              "ToolTip": "C:\\Users\\DELL 3530\\OneDrive\\Desktop\\MiniInventorySystem\\BackendMiniInventoryShop\\MiniInventory.API\\MiniInventory.Application\\Interfaces\\ICategoryService.cs",
+              "RelativeToolTip": "MiniInventory.Application\\Interfaces\\ICategoryService.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAxwBEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-25T11:28:18.071Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ICategoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\DELL 3530\\OneDrive\\Desktop\\MiniInventorySystem\\BackendMiniInventoryShop\\MiniInventory.API\\MiniInventory.Application\\Interfaces\\ICategoryRepository.cs",
+              "RelativeDocumentMoniker": "MiniInventory.Application\\Interfaces\\ICategoryRepository.cs",
+              "ToolTip": "C:\\Users\\DELL 3530\\OneDrive\\Desktop\\MiniInventorySystem\\BackendMiniInventoryShop\\MiniInventory.API\\MiniInventory.Application\\Interfaces\\ICategoryRepository.cs",
+              "RelativeToolTip": "MiniInventory.Application\\Interfaces\\ICategoryRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-25T11:07:38.734Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "IItemService.cs",
+              "DocumentMoniker": "C:\\Users\\DELL 3530\\OneDrive\\Desktop\\MiniInventorySystem\\BackendMiniInventoryShop\\MiniInventory.API\\MiniInventory.Application\\Interfaces\\IItemService.cs",
+              "RelativeDocumentMoniker": "MiniInventory.Application\\Interfaces\\IItemService.cs",
+              "ToolTip": "C:\\Users\\DELL 3530\\OneDrive\\Desktop\\MiniInventorySystem\\BackendMiniInventoryShop\\MiniInventory.API\\MiniInventory.Application\\Interfaces\\IItemService.cs",
+              "RelativeToolTip": "MiniInventory.Application\\Interfaces\\IItemService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-25T11:29:42.097Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "ISupplierService.cs",
+              "DocumentMoniker": "C:\\Users\\DELL 3530\\OneDrive\\Desktop\\MiniInventorySystem\\BackendMiniInventoryShop\\MiniInventory.API\\MiniInventory.Application\\Interfaces\\ISupplierService.cs",
+              "RelativeDocumentMoniker": "MiniInventory.Application\\Interfaces\\ISupplierService.cs",
+              "ToolTip": "C:\\Users\\DELL 3530\\OneDrive\\Desktop\\MiniInventorySystem\\BackendMiniInventoryShop\\MiniInventory.API\\MiniInventory.Application\\Interfaces\\ISupplierService.cs",
+              "RelativeToolTip": "MiniInventory.Application\\Interfaces\\ISupplierService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-25T11:28:49.837Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "SupplierRepository.cs",
+              "DocumentMoniker": "C:\\Users\\DELL 3530\\OneDrive\\Desktop\\MiniInventorySystem\\BackendMiniInventoryShop\\MiniInventory.API\\MiniInventory.Infrastructure\\Repositories\\SupplierRepository.cs",
+              "RelativeDocumentMoniker": "MiniInventory.Infrastructure\\Repositories\\SupplierRepository.cs",
+              "ToolTip": "C:\\Users\\DELL 3530\\OneDrive\\Desktop\\MiniInventorySystem\\BackendMiniInventoryShop\\MiniInventory.API\\MiniInventory.Infrastructure\\Repositories\\SupplierRepository.cs",
+              "RelativeToolTip": "MiniInventory.Infrastructure\\Repositories\\SupplierRepository.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAkwCAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-25T11:20:02.359Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "CategoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\DELL 3530\\OneDrive\\Desktop\\MiniInventorySystem\\BackendMiniInventoryShop\\MiniInventory.API\\MiniInventory.Infrastructure\\Repositories\\CategoryRepository.cs",
+              "RelativeDocumentMoniker": "MiniInventory.Infrastructure\\Repositories\\CategoryRepository.cs",
+              "ToolTip": "C:\\Users\\DELL 3530\\OneDrive\\Desktop\\MiniInventorySystem\\BackendMiniInventoryShop\\MiniInventory.API\\MiniInventory.Infrastructure\\Repositories\\CategoryRepository.cs",
+              "RelativeToolTip": "MiniInventory.Infrastructure\\Repositories\\CategoryRepository.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAkwB8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-25T11:19:22.031Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "GenericRepository.cs",
+              "DocumentMoniker": "C:\\Users\\DELL 3530\\OneDrive\\Desktop\\MiniInventorySystem\\BackendMiniInventoryShop\\MiniInventory.API\\MiniInventory.Infrastructure\\Repositories\\GenericRepository.cs",
+              "RelativeDocumentMoniker": "MiniInventory.Infrastructure\\Repositories\\GenericRepository.cs",
+              "ToolTip": "C:\\Users\\DELL 3530\\OneDrive\\Desktop\\MiniInventorySystem\\BackendMiniInventoryShop\\MiniInventory.API\\MiniInventory.Infrastructure\\Repositories\\GenericRepository.cs",
+              "RelativeToolTip": "MiniInventory.Infrastructure\\Repositories\\GenericRepository.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAgwDoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-25T11:13:47.021Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "IItemRepository.cs",
+              "DocumentMoniker": "C:\\Users\\DELL 3530\\OneDrive\\Desktop\\MiniInventorySystem\\BackendMiniInventoryShop\\MiniInventory.API\\MiniInventory.Application\\Interfaces\\IItemRepository.cs",
+              "RelativeDocumentMoniker": "MiniInventory.Application\\Interfaces\\IItemRepository.cs",
+              "ToolTip": "C:\\Users\\DELL 3530\\OneDrive\\Desktop\\MiniInventorySystem\\BackendMiniInventoryShop\\MiniInventory.API\\MiniInventory.Application\\Interfaces\\IItemRepository.cs",
+              "RelativeToolTip": "MiniInventory.Application\\Interfaces\\IItemRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-25T11:08:59.03Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ISupplierRepository.cs",
+              "DocumentMoniker": "C:\\Users\\DELL 3530\\OneDrive\\Desktop\\MiniInventorySystem\\BackendMiniInventoryShop\\MiniInventory.API\\MiniInventory.Application\\Interfaces\\ISupplierRepository.cs",
+              "RelativeDocumentMoniker": "MiniInventory.Application\\Interfaces\\ISupplierRepository.cs",
+              "ToolTip": "C:\\Users\\DELL 3530\\OneDrive\\Desktop\\MiniInventorySystem\\BackendMiniInventoryShop\\MiniInventory.API\\MiniInventory.Application\\Interfaces\\ISupplierRepository.cs",
+              "RelativeToolTip": "MiniInventory.Application\\Interfaces\\ISupplierRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-25T11:08:19.087Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "IGenericRepository.cs",
+              "DocumentMoniker": "C:\\Users\\DELL 3530\\OneDrive\\Desktop\\MiniInventorySystem\\BackendMiniInventoryShop\\MiniInventory.API\\MiniInventory.Application\\Interfaces\\IGenericRepository.cs",
+              "RelativeDocumentMoniker": "MiniInventory.Application\\Interfaces\\IGenericRepository.cs",
+              "ToolTip": "C:\\Users\\DELL 3530\\OneDrive\\Desktop\\MiniInventorySystem\\BackendMiniInventoryShop\\MiniInventory.API\\MiniInventory.Application\\Interfaces\\IGenericRepository.cs",
+              "RelativeToolTip": "MiniInventory.Application\\Interfaces\\IGenericRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-25T11:06:31.289Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "20260625110233_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\DELL 3530\\OneDrive\\Desktop\\MiniInventorySystem\\BackendMiniInventoryShop\\MiniInventory.API\\MiniInventory.Infrastructure\\Migrations\\20260625110233_InitialCreate.cs",
+              "RelativeDocumentMoniker": "MiniInventory.Infrastructure\\Migrations\\20260625110233_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\DELL 3530\\OneDrive\\Desktop\\MiniInventorySystem\\BackendMiniInventoryShop\\MiniInventory.API\\MiniInventory.Infrastructure\\Migrations\\20260625110233_InitialCreate.cs",
+              "RelativeToolTip": "MiniInventory.Infrastructure\\Migrations\\20260625110233_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-25T11:02:33.89Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "AppDbContextFactory.cs",
+              "DocumentMoniker": "C:\\Users\\DELL 3530\\OneDrive\\Desktop\\MiniInventorySystem\\BackendMiniInventoryShop\\MiniInventory.API\\MiniInventory.Infrastructure\\Data\\AppDbContextFactory.cs",
+              "RelativeDocumentMoniker": "MiniInventory.Infrastructure\\Data\\AppDbContextFactory.cs",
+              "ToolTip": "C:\\Users\\DELL 3530\\OneDrive\\Desktop\\MiniInventorySystem\\BackendMiniInventoryShop\\MiniInventory.API\\MiniInventory.Infrastructure\\Data\\AppDbContextFactory.cs",
+              "RelativeToolTip": "MiniInventory.Infrastructure\\Data\\AppDbContextFactory.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAqwAgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-25T11:00:11.145Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "MiniInventory.Application.csproj",
+              "DocumentMoniker": "C:\\Users\\DELL 3530\\OneDrive\\Desktop\\MiniInventorySystem\\BackendMiniInventoryShop\\MiniInventory.API\\MiniInventory.Application\\MiniInventory.Application.csproj",
+              "RelativeDocumentMoniker": "MiniInventory.Application\\MiniInventory.Application.csproj",
+              "ToolTip": "C:\\Users\\DELL 3530\\OneDrive\\Desktop\\MiniInventorySystem\\BackendMiniInventoryShop\\MiniInventory.API\\MiniInventory.Application\\MiniInventory.Application.csproj",
+              "RelativeToolTip": "MiniInventory.Application\\MiniInventory.Application.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-06-25T09:53:32.188Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\DELL 3530\\OneDrive\\Desktop\\MiniInventorySystem\\BackendMiniInventoryShop\\MiniInventory.API\\MiniInventory.Infrastructure\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "MiniInventory.Infrastructure\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\DELL 3530\\OneDrive\\Desktop\\MiniInventorySystem\\BackendMiniInventoryShop\\MiniInventory.API\\MiniInventory.Infrastructure\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "MiniInventory.Infrastructure\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAkwGIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-25T10:09:21.349Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "StockOut.cs",
+              "DocumentMoniker": "C:\\Users\\DELL 3530\\OneDrive\\Desktop\\MiniInventorySystem\\BackendMiniInventoryShop\\MiniInventory.API\\MiniInventory.Domain\\Entities\\StockOut.cs",
+              "RelativeDocumentMoniker": "MiniInventory.Domain\\Entities\\StockOut.cs",
+              "ToolTip": "C:\\Users\\DELL 3530\\OneDrive\\Desktop\\MiniInventorySystem\\BackendMiniInventoryShop\\MiniInventory.API\\MiniInventory.Domain\\Entities\\StockOut.cs",
+              "RelativeToolTip": "MiniInventory.Domain\\Entities\\StockOut.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-25T09:33:55.439Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "ApiResponse.cs",
+              "DocumentMoniker": "C:\\Users\\DELL 3530\\OneDrive\\Desktop\\MiniInventorySystem\\BackendMiniInventoryShop\\MiniInventory.API\\MiniInventory.Shared\\CommonResponse\\ApiResponse.cs",
+              "RelativeDocumentMoniker": "MiniInventory.Shared\\CommonResponse\\ApiResponse.cs",
+              "ToolTip": "C:\\Users\\DELL 3530\\OneDrive\\Desktop\\MiniInventorySystem\\BackendMiniInventoryShop\\MiniInventory.API\\MiniInventory.Shared\\CommonResponse\\ApiResponse.cs",
+              "RelativeToolTip": "MiniInventory.Shared\\CommonResponse\\ApiResponse.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAswCgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-25T10:10:53.159Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\DELL 3530\\OneDrive\\Desktop\\MiniInventorySystem\\BackendMiniInventoryShop\\MiniInventory.API\\MiniInventory.API\\appsettings.json",
+              "RelativeDocumentMoniker": "MiniInventory.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\DELL 3530\\OneDrive\\Desktop\\MiniInventorySystem\\BackendMiniInventoryShop\\MiniInventory.API\\MiniInventory.API\\appsettings.json",
+              "RelativeToolTip": "MiniInventory.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-06-25T10:12:29.879Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "StockIn.cs",
+              "DocumentMoniker": "C:\\Users\\DELL 3530\\OneDrive\\Desktop\\MiniInventorySystem\\BackendMiniInventoryShop\\MiniInventory.API\\MiniInventory.Domain\\Entities\\StockIn.cs",
+              "RelativeDocumentMoniker": "MiniInventory.Domain\\Entities\\StockIn.cs",
+              "ToolTip": "C:\\Users\\DELL 3530\\OneDrive\\Desktop\\MiniInventorySystem\\BackendMiniInventoryShop\\MiniInventory.API\\MiniInventory.Domain\\Entities\\StockIn.cs",
+              "RelativeToolTip": "MiniInventory.Domain\\Entities\\StockIn.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-25T09:33:18.891Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Item.cs",
+              "DocumentMoniker": "C:\\Users\\DELL 3530\\OneDrive\\Desktop\\MiniInventorySystem\\BackendMiniInventoryShop\\MiniInventory.API\\MiniInventory.Domain\\Entities\\Item.cs",
+              "RelativeDocumentMoniker": "MiniInventory.Domain\\Entities\\Item.cs",
+              "ToolTip": "C:\\Users\\DELL 3530\\OneDrive\\Desktop\\MiniInventorySystem\\BackendMiniInventoryShop\\MiniInventory.API\\MiniInventory.Domain\\Entities\\Item.cs",
+              "RelativeToolTip": "MiniInventory.Domain\\Entities\\Item.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAQwBgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-25T09:32:47.23Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Supplier.cs",
+              "DocumentMoniker": "C:\\Users\\DELL 3530\\OneDrive\\Desktop\\MiniInventorySystem\\BackendMiniInventoryShop\\MiniInventory.API\\MiniInventory.Domain\\Entities\\Supplier.cs",
+              "RelativeDocumentMoniker": "MiniInventory.Domain\\Entities\\Supplier.cs",
+              "ToolTip": "C:\\Users\\DELL 3530\\OneDrive\\Desktop\\MiniInventorySystem\\BackendMiniInventoryShop\\MiniInventory.API\\MiniInventory.Domain\\Entities\\Supplier.cs",
+              "RelativeToolTip": "MiniInventory.Domain\\Entities\\Supplier.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-25T09:32:12.006Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\DELL 3530\\OneDrive\\Desktop\\MiniInventorySystem\\BackendMiniInventoryShop\\MiniInventory.API\\MiniInventory.Domain\\Entities\\Category.cs",
+              "RelativeDocumentMoniker": "MiniInventory.Domain\\Entities\\Category.cs",
+              "ToolTip": "C:\\Users\\DELL 3530\\OneDrive\\Desktop\\MiniInventorySystem\\BackendMiniInventoryShop\\MiniInventory.API\\MiniInventory.Domain\\Entities\\Category.cs",
+              "RelativeToolTip": "MiniInventory.Domain\\Entities\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-25T09:30:12.437Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "MiniInventory.Infrastructure",
+              "DocumentMoniker": "C:\\Users\\DELL 3530\\OneDrive\\Desktop\\MiniInventorySystem\\BackendMiniInventoryShop\\MiniInventory.API\\MiniInventory.Infrastructure\\MiniInventory.Infrastructure.csproj",
+              "RelativeDocumentMoniker": "MiniInventory.Infrastructure\\MiniInventory.Infrastructure.csproj",
+              "ToolTip": "C:\\Users\\DELL 3530\\OneDrive\\Desktop\\MiniInventorySystem\\BackendMiniInventoryShop\\MiniInventory.API\\MiniInventory.Infrastructure\\MiniInventory.Infrastructure.csproj",
+              "RelativeToolTip": "MiniInventory.Infrastructure\\MiniInventory.Infrastructure.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-06-25T10:21:06.936Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "MiniInventory.Shared.csproj",
+              "DocumentMoniker": "C:\\Users\\DELL 3530\\OneDrive\\Desktop\\MiniInventorySystem\\BackendMiniInventoryShop\\MiniInventory.API\\MiniInventory.Shared\\MiniInventory.Shared.csproj",
+              "RelativeDocumentMoniker": "MiniInventory.Shared\\MiniInventory.Shared.csproj",
+              "ToolTip": "C:\\Users\\DELL 3530\\OneDrive\\Desktop\\MiniInventorySystem\\BackendMiniInventoryShop\\MiniInventory.API\\MiniInventory.Shared\\MiniInventory.Shared.csproj",
+              "RelativeToolTip": "MiniInventory.Shared\\MiniInventory.Shared.csproj",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAgwAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-06-25T09:00:50.327Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "MiniInventory.Domain.csproj",
+              "DocumentMoniker": "C:\\Users\\DELL 3530\\OneDrive\\Desktop\\MiniInventorySystem\\BackendMiniInventoryShop\\MiniInventory.API\\MiniInventory.Domain\\MiniInventory.Domain.csproj",
+              "RelativeDocumentMoniker": "MiniInventory.Domain\\MiniInventory.Domain.csproj",
+              "ToolTip": "C:\\Users\\DELL 3530\\OneDrive\\Desktop\\MiniInventorySystem\\BackendMiniInventoryShop\\MiniInventory.API\\MiniInventory.Domain\\MiniInventory.Domain.csproj",
+              "RelativeToolTip": "MiniInventory.Domain\\MiniInventory.Domain.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-06-25T09:53:44.094Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "MiniInventory.Infrastructure.csproj",
+              "DocumentMoniker": "C:\\Users\\DELL 3530\\OneDrive\\Desktop\\MiniInventorySystem\\BackendMiniInventoryShop\\MiniInventory.API\\MiniInventory.Infrastructure\\MiniInventory.Infrastructure.csproj",
+              "RelativeDocumentMoniker": "MiniInventory.Infrastructure\\MiniInventory.Infrastructure.csproj",
+              "ToolTip": "C:\\Users\\DELL 3530\\OneDrive\\Desktop\\MiniInventorySystem\\BackendMiniInventoryShop\\MiniInventory.API\\MiniInventory.Infrastructure\\MiniInventory.Infrastructure.csproj",
+              "RelativeToolTip": "MiniInventory.Infrastructure\\MiniInventory.Infrastructure.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-06-25T09:52:43.025Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "MiniInventory.API",
+              "DocumentMoniker": "C:\\Users\\DELL 3530\\OneDrive\\Desktop\\MiniInventorySystem\\BackendMiniInventoryShop\\MiniInventory.API\\MiniInventory.API\\MiniInventory.API.csproj",
+              "RelativeDocumentMoniker": "MiniInventory.API\\MiniInventory.API.csproj",
+              "ToolTip": "C:\\Users\\DELL 3530\\OneDrive\\Desktop\\MiniInventorySystem\\BackendMiniInventoryShop\\MiniInventory.API\\MiniInventory.API\\MiniInventory.API.csproj",
+              "RelativeToolTip": "MiniInventory.API\\MiniInventory.API.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-06-25T09:49:55.174Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+C:\Users\DELL 3530\OneDrive\Desktop\MiniInventorySystem\BackendMiniInventoryShop\MiniInventory.API\MiniInventory.Shared\bin\Debug\net10.0\MiniInventory.Shared.deps.json
+C:\Users\DELL 3530\OneDrive\Desktop\MiniInventorySystem\BackendMiniInventoryShop\MiniInventory.API\MiniInventory.Shared\bin\Debug\net10.0\MiniInventory.Shared.dll
+C:\Users\DELL 3530\OneDrive\Desktop\MiniInventorySystem\BackendMiniInventoryShop\MiniInventory.API\MiniInventory.Shared\bin\Debug\net10.0\MiniInventory.Shared.pdb
+C:\Users\DELL 3530\OneDrive\Desktop\MiniInventorySystem\BackendMiniInventoryShop\MiniInventory.API\MiniInventory.Shared\obj\Debug\net10.0\MiniInventory.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL 3530\OneDrive\Desktop\MiniInventorySystem\BackendMiniInventoryShop\MiniInventory.API\MiniInventory.Shared\obj\Debug\net10.0\MiniInventory.Shared.AssemblyInfoInputs.cache
+C:\Users\DELL 3530\OneDrive\Desktop\MiniInventorySystem\BackendMiniInventoryShop\MiniInventory.API\MiniInventory.Shared\obj\Debug\net10.0\MiniInventory.Shared.AssemblyInfo.cs
+C:\Users\DELL 3530\OneDrive\Desktop\MiniInventorySystem\BackendMiniInventoryShop\MiniInventory.API\MiniInventory.Shared\obj\Debug\net10.0\MiniInventory.Shared.csproj.CoreCompileInputs.cache
+C:\Users\DELL 3530\OneDrive\Desktop\MiniInventorySystem\BackendMiniInventoryShop\MiniInventory.API\MiniInventory.Shared\obj\Debug\net10.0\MiniInventory.Shared.dll
+C:\Users\DELL 3530\OneDrive\Desktop\MiniInventorySystem\BackendMiniInventoryShop\MiniInventory.API\MiniInventory.Shared\obj\Debug\net10.0\refint\MiniInventory.Shared.dll
+C:\Users\DELL 3530\OneDrive\Desktop\MiniInventorySystem\BackendMiniInventoryShop\MiniInventory.API\MiniInventory.Shared\obj\Debug\net10.0\MiniInventory.Shared.pdb
+C:\Users\DELL 3530\OneDrive\Desktop\MiniInventorySystem\BackendMiniInventoryShop\MiniInventory.API\MiniInventory.Shared\obj\Debug\net10.0\ref\MiniInventory.Shared.dll
