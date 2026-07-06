@@ -1,26 +1,5 @@
 # 🍏 Grocery Inventory Management System
 ## API Documentation
-### Version 1.0
-
-**Prepared By:** [Your Name]  
-**Company:** Ceylon Innovation Services (PVT) LTD  
-**Branch:** Negombo Branch  
-**Date:** July 2026  
-
----
-
-## 📋 Table of Contents
-
-1. [Introduction](#introduction)
-2. [Base URL](#base-url)
-3. [Common Response Format](#common-response-format)
-4. [Category APIs](#category-apis)
-5. [Supplier APIs](#supplier-apis)
-6. [Item APIs](#item-apis)
-7. [Stock APIs](#stock-apis)
-8. [Status Codes](#status-codes)
-9. [Error Handling](#error-handling)
-10. [Complete Endpoints Summary](#complete-endpoints-summary)
 
 ---
 
