@@ -1,0 +1,33 @@
+name: Deploy to AWS Elastic Beanstalk
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v3
+      with:
+        dotnet-version: '8.0.x'
+    
+    - name: Build
+      run: dotnet publish -c Release -o publish
+    
+    - name: Zip
+      run: cd publish && zip -r ../deploy.zip . && cd ..
+    
+    - name: Deploy to EB
+      uses: einaregilsson/beanstalk-deploy@v21
+      with:
+        aws_access_key: ${{ secrets.AWS_ACCESS_KEY }}
+        aws_secret_key: ${{ secrets.AWS_SECRET_KEY }}
+        application_name: grocery-inventory-api
+        environment_name: grocery-inventory-api-prod
+        version_label: ${{ github.sha }}
+        region: eu-north-1
+        deployment_package: deploy.zip
