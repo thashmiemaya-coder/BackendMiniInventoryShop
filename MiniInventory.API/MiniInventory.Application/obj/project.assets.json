@@ -43,23 +43,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\DELL 3530\\.nuget\\packages\\": {},
+    "C:\\Users\\shash\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\DELL 3530\\OneDrive\\Desktop\\MiniInventorySystem\\BackendMiniInventoryShop\\MiniInventory.API\\MiniInventory.Application\\MiniInventory.Application.csproj",
+      "projectUniqueName": "C:\\Users\\shash\\Desktop\\New folder\\BackendMiniInventoryShop\\MiniInventory.API\\MiniInventory.Application\\MiniInventory.Application.csproj",
       "projectName": "MiniInventory.Application",
-      "projectPath": "C:\\Users\\DELL 3530\\OneDrive\\Desktop\\MiniInventorySystem\\BackendMiniInventoryShop\\MiniInventory.API\\MiniInventory.Application\\MiniInventory.Application.csproj",
-      "packagesPath": "C:\\Users\\DELL 3530\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\DELL 3530\\OneDrive\\Desktop\\MiniInventorySystem\\BackendMiniInventoryShop\\MiniInventory.API\\MiniInventory.Application\\obj\\",
+      "projectPath": "C:\\Users\\shash\\Desktop\\New folder\\BackendMiniInventoryShop\\MiniInventory.API\\MiniInventory.Application\\MiniInventory.Application.csproj",
+      "packagesPath": "C:\\Users\\shash\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\shash\\Desktop\\New folder\\BackendMiniInventoryShop\\MiniInventory.API\\MiniInventory.Application\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\DELL 3530\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\shash\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -75,11 +75,11 @@
           "framework": "net10.0",
           "targetAlias": "net10.0",
           "projectReferences": {
-            "C:\\Users\\DELL 3530\\OneDrive\\Desktop\\MiniInventorySystem\\BackendMiniInventoryShop\\MiniInventory.API\\MiniInventory.Domain\\MiniInventory.Domain.csproj": {
-              "projectPath": "C:\\Users\\DELL 3530\\OneDrive\\Desktop\\MiniInventorySystem\\BackendMiniInventoryShop\\MiniInventory.API\\MiniInventory.Domain\\MiniInventory.Domain.csproj"
+            "C:\\Users\\shash\\Desktop\\New folder\\BackendMiniInventoryShop\\MiniInventory.API\\MiniInventory.Domain\\MiniInventory.Domain.csproj": {
+              "projectPath": "C:\\Users\\shash\\Desktop\\New folder\\BackendMiniInventoryShop\\MiniInventory.API\\MiniInventory.Domain\\MiniInventory.Domain.csproj"
             },
-            "C:\\Users\\DELL 3530\\OneDrive\\Desktop\\MiniInventorySystem\\BackendMiniInventoryShop\\MiniInventory.API\\MiniInventory.Shared\\MiniInventory.Shared.csproj": {
-              "projectPath": "C:\\Users\\DELL 3530\\OneDrive\\Desktop\\MiniInventorySystem\\BackendMiniInventoryShop\\MiniInventory.API\\MiniInventory.Shared\\MiniInventory.Shared.csproj"
+            "C:\\Users\\shash\\Desktop\\New folder\\BackendMiniInventoryShop\\MiniInventory.API\\MiniInventory.Shared\\MiniInventory.Shared.csproj": {
+              "projectPath": "C:\\Users\\shash\\Desktop\\New folder\\BackendMiniInventoryShop\\MiniInventory.API\\MiniInventory.Shared\\MiniInventory.Shared.csproj"
             }
           }
         }
