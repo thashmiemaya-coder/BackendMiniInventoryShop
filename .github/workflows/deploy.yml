@@ -16,17 +16,6 @@ jobs:
       with:
         dotnet-version: '8.0.x'
     
-    - name: Debug - Show structure
-      run: |
-        echo "Root directory:"
-        ls -la
-        echo ""
-        echo "MiniInventory.API folder:"
-        ls -la MiniInventory.API/
-        echo ""
-        echo "All csproj files:"
-        find . -name "*.csproj"
-    
     - name: Restore dependencies
       run: dotnet restore MiniInventory.API/MiniInventory.API/MiniInventory.API.csproj
     
@@ -45,7 +34,7 @@ jobs:
         aws_access_key: ${{ secrets.AWS_ACCESS_KEY }}
         aws_secret_key: ${{ secrets.AWS_SECRET_KEY }}
         application_name: grocery-inventory-api
-        environment_name: grocery-inventory-api-prod
+        environment_name: Grocery-inventory-api-env
         version_label: v-${{ github.run_number }}
         region: eu-north-1
         deployment_package: deploy.zip
