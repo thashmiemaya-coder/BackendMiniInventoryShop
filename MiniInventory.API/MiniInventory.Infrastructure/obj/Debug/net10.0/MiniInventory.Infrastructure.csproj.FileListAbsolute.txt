@@ -19,3 +19,4 @@ C:\Users\DELL 3530\OneDrive\Desktop\MiniInventorySystem\BackendMiniInventoryShop
 C:\Users\DELL 3530\OneDrive\Desktop\MiniInventorySystem\BackendMiniInventoryShop\MiniInventory.API\MiniInventory.Infrastructure\obj\Debug\net10.0\MiniInventory.Infrastructure.pdb
 C:\Users\DELL 3530\OneDrive\Desktop\MiniInventorySystem\BackendMiniInventoryShop\MiniInventory.API\MiniInventory.Infrastructure\obj\Debug\net10.0\MiniInventory.Infrastructure.genruntimeconfig.cache
 C:\Users\DELL 3530\OneDrive\Desktop\MiniInventorySystem\BackendMiniInventoryShop\MiniInventory.API\MiniInventory.Infrastructure\obj\Debug\net10.0\ref\MiniInventory.Infrastructure.dll
+C:\Users\DELL 3530\OneDrive\Desktop\MiniInventorySystem\BackendMiniInventoryShop\MiniInventory.API\MiniInventory.Infrastructure\obj\Debug\net10.0\MiniInventory.Infrastructure.sourcelink.json

@@ -6,6 +6,10 @@ using MiniInventory.Application.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
+// ===== PORT CONFIGURATION (Elastic Beanstalk) =====
+var port = Environment.GetEnvironmentVariable("PORT") ?? "5000";
+builder.WebHost.UseUrls($"http://*:{port}");
+
 // Add services
 builder.Services.AddControllers();
 
@@ -19,6 +23,10 @@ builder.Services.AddScoped<ISupplierRepository, SupplierRepository>();
 builder.Services.AddScoped<IItemRepository, ItemRepository>();
 builder.Services.AddScoped<IStockInRepository, StockInRepository>();
 builder.Services.AddScoped<IStockOutRepository, StockOutRepository>();
+
+// Register User Repository and Service
+builder.Services.AddScoped<IUserRepository, UserRepository>();
+builder.Services.AddScoped<IUserService, UserService>();
 
 // ===== REGISTER SERVICES =====
 builder.Services.AddScoped<ICategoryService, CategoryService>();
@@ -43,7 +51,10 @@ var app = builder.Build();
 // ===== MIDDLEWARE =====
 app.UseCors("AllowAll");
 
-app.UseHttpsRedirection();
+// ⚠️ HTTPS Redirection - Comment out for Elastic Beanstalk
+// EB එකේ HTTPS handle කරන්නේ Load Balancer එකයි
+// app.UseHttpsRedirection();
+
 app.UseAuthorization();
 app.MapControllers();
 

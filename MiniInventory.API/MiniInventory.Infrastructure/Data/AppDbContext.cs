@@ -15,6 +15,7 @@ namespace MiniInventory.Infrastructure.Data
         public DbSet<Item> Items { get; set; }
         public DbSet<StockIn> StockIns { get; set; }
         public DbSet<StockOut> StockOuts { get; set; }
+        public DbSet<User> Users { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -93,6 +94,31 @@ namespace MiniInventory.Infrastructure.Data
                     .WithMany(e => e.StockOuts)
                     .HasForeignKey(e => e.ItemId)
                     .OnDelete(DeleteBehavior.Restrict);
+            });
+
+            // User configuration
+            modelBuilder.Entity<User>(entity =>
+            {
+                entity.HasKey(e => e.UserId);
+                entity.Property(e => e.Username)
+                    .IsRequired()
+                    .HasMaxLength(50);
+                entity.Property(e => e.Email)
+                    .IsRequired()
+                    .HasMaxLength(100);
+                entity.Property(e => e.PasswordHash)
+                    .IsRequired()
+                    .HasMaxLength(255);
+                entity.Property(e => e.Role)
+                    .IsRequired()
+                    .HasMaxLength(20)
+                    .HasDefaultValue("Cashier");
+                entity.Property(e => e.FullName)
+                    .HasMaxLength(100);
+                entity.Property(e => e.IsActive)
+                    .HasDefaultValue(true);
+                entity.Property(e => e.CreatedDate)
+                    .HasDefaultValueSql("GETDATE()");
             });
         }
     }

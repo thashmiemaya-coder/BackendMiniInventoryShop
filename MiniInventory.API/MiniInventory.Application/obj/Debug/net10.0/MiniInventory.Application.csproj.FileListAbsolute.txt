@@ -15,3 +15,4 @@ C:\Users\DELL 3530\OneDrive\Desktop\MiniInventorySystem\BackendMiniInventoryShop
 C:\Users\DELL 3530\OneDrive\Desktop\MiniInventorySystem\BackendMiniInventoryShop\MiniInventory.API\MiniInventory.Application\obj\Debug\net10.0\refint\MiniInventory.Application.dll
 C:\Users\DELL 3530\OneDrive\Desktop\MiniInventorySystem\BackendMiniInventoryShop\MiniInventory.API\MiniInventory.Application\obj\Debug\net10.0\MiniInventory.Application.pdb
 C:\Users\DELL 3530\OneDrive\Desktop\MiniInventorySystem\BackendMiniInventoryShop\MiniInventory.API\MiniInventory.Application\obj\Debug\net10.0\ref\MiniInventory.Application.dll
+C:\Users\DELL 3530\OneDrive\Desktop\MiniInventorySystem\BackendMiniInventoryShop\MiniInventory.API\MiniInventory.Application\obj\Debug\net10.0\MiniInventory.Application.sourcelink.json
