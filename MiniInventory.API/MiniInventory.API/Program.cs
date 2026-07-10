@@ -40,7 +40,10 @@ builder.Services.AddCors(options =>
     options.AddPolicy("AllowAll",
         policy =>
         {
-            policy.AllowAnyOrigin()
+            policy.WithOrigins(
+                    "https://frontend-mini-inventory-shop.vercel.app",
+                    "http://localhost:5177"
+                  )
                   .AllowAnyMethod()
                   .AllowAnyHeader();
         });
